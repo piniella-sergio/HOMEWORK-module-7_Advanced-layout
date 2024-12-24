@@ -1,0 +1,15 @@
+{
+  "name": "homework_7",
+  "version": "1.0.0",
+  "description": "advanced_layout",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Homework_advanced_layout"
+  },
+  "author": "Sergio Piniella",
+  "license": "ISC"
+}

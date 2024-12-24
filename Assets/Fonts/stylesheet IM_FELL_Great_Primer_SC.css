@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'IM FELL Great Primer SC';
+    src: url('IM_FELL_Great_Primer_SC.woff2') format('woff2'),
+        url('IM_FELL_Great_Primer_SC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
