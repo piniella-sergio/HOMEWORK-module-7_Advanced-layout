@@ -833,7 +833,6 @@ blockquote {
     line-height: 48px;
     margin-bottom: 0;
   }
-
   header {
     max-width: 768;
     height: 76px;
@@ -935,7 +934,6 @@ blockquote {
     column-gap: 20px;
     height: 153px;
   }
-
   .blog #robinson {
     width: 230px;
     height: 153px;
@@ -1042,8 +1040,6 @@ blockquote {
     margin-top: 30px;
     column-gap: 110px;
     row-gap: 40px;
-  }
-  footer {
   }
   .footer {
     max-width: 460px;
