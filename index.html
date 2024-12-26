@@ -12,9 +12,11 @@
   </head>
   <body>
     <header>
-      <!-- логотип -->
       <a href="#"
-        ><img src="Assets/Icons/Group4LogoTealuxe.svg" alt="logo" width="73"
+        ><img src="Assets/Icons/Group4LogoTealuxe.svg" alt="logo" id="logo"
+      /></a>
+      <a href="#"
+        ><img src="Assets/Icons/Burger.png" alt="logo" id="burger"
       /></a>
       <!-- навигация -->
       <nav class="menu">
@@ -120,58 +122,73 @@
       <div class="bgReviews">
         <div class="review">
           <h2>What our Clients say</h2>
+
           <div class="reviews">
-            <figure class="block-reviews">
-              <p>
-                "As a tea enthusiast, I have tried teas from all over the world,
-                but this tea store truly stands out. Their teas are of the
-                highest quality and the variety is impressive. This is
-                definitely a tea store that every tea lover should visit."
-              </p>
-              <figcaption class="name">Alice</figcaption>
-            </figure>
-            <figure class="block-reviews">
-              <p>
-                "This tea store is my go-to for all my tea needs. Their
-                selection is unbeatable and the quality of their teas is
-                exceptional."
-              </p>
-              <figcaption class="name">Mad-Hatter</figcaption>
-            </figure>
-            <figure class="block-reviews">
-              <p>
-                "If you're a tea lover, you must visit this tea store. The
-                selection is vast and the quality is outstanding. I guarantee
-                you won't be disappointed."
-              </p>
-              <figcaption class="name">Dormouse</figcaption>
-            </figure>
-            <figure class="block-reviews">
-              <p>
-                "I am not a big tea drinker, but this tea store has converted
-                me. I highly recommend this tea store to anyone looking for a
-                high-quality tea experience."
-              </p>
-              <figcaption class="name">March Hare</figcaption>
-            </figure>
+            <div class="block-reviews">
+              <blockquote>
+                <p>
+                  "As a tea enthusiast, I have tried teas from all over the
+                  world, but this tea store truly stands out. Their teas are of
+                  the highest quality and the variety is impressive. This is
+                  definitely a tea store that every tea lover should visit."
+                </p>
+              </blockquote>
+              <p class="name">Alice</p>
+            </div>
+
+            <div class="block-reviews">
+              <blockquote>
+                <p>
+                  "This tea store is my go-to for all my tea needs. Their
+                  selection is unbeatable and the quality of their teas is
+                  exceptional."
+                </p>
+              </blockquote>
+              <p class="name">Mad-Hatter</p>
+            </div>
+
+            <div class="block-reviews">
+              <blockquote>
+                <p>
+                  "If you're a tea lover, you must visit this tea store. The
+                  selection is vast and the quality is outstanding. I guarantee
+                  you won't be disappointed."
+                </p>
+              </blockquote>
+              <p class="name">Dormouse</p>
+            </div>
+
+            <div class="block-reviews">
+              <blockquote>
+                <p>
+                  "I am not a big tea drinker, but this tea store has converted
+                  me. I highly recommend this tea store to anyone looking for a
+                  high-quality tea experience."
+                </p>
+              </blockquote>
+              <p class="name">March Hare</p>
+            </div>
           </div>
         </div>
       </div>
       <!-- Блог -->
       <section class="ourBlog">
         <h2>Our Tea Blog</h2>
+
         <div class="blogs">
-          <div class="blog">
+          <div class="blog" id="positionRobinson">
             <div id="robinson"></div>
+
             <div class="subject">
               Tea Time Travels: Funny Moments from Around the World
             </div>
+
             <div class="author">by Robinson Crusoe</div>
-            <div>
-              <a href="#" class="read">Read</a>
-            </div>
+
+            <a href="#" class="read">Read</a>
           </div>
-          <div class="blog">
+
+          <div class="blog" id="positionJoker">
             <div>
               <div id="joker"></div>
             </div>
@@ -181,7 +198,8 @@
               <a href="#" class="read">Read</a>
             </div>
           </div>
-          <div class="blog">
+
+          <div class="blog" id="positionCasper">
             <div>
               <div id="casper"></div>
             </div>
@@ -193,7 +211,8 @@
               <a href="#" class="read">Read</a>
             </div>
           </div>
-          <div class="blog">
+
+          <div class="blog" id="positionAuthor">
             <div>
               <div id="author"></div>
             </div>
@@ -254,49 +273,51 @@
       <!-- Приоритеты -->
       <section class="prioritise">
         <h2>We Prioritise</h2>
-        <div>
+        <div class="priority">
           <div>
-            <p class="title">Single garden teas</p>
-            <p class="quality">Complete transparency</p>
+            <div>
+              <p class="title">Single garden teas</p>
+              <p class="quality">Complete transparency</p>
+            </div>
+            <img
+              src="Assets/Icons/VectorGarden.png"
+              alt="Single garden teas"
+              srcset=""
+            />
           </div>
-          <img
-            src="Assets/Icons/VectorGarden.png"
-            alt="Single garden teas"
-            srcset=""
-          />
-        </div>
-        <div>
           <div>
-            <p class="title">Only Loose leaf tea</p>
-            <p class="quality">Best Drinking Experience</p>
+            <div>
+              <p class="title">Only Loose leaf tea</p>
+              <p class="quality">Best Drinking Experience</p>
+            </div>
+            <img
+              src="Assets/Icons/VectorLeaf.png"
+              alt="Single garden teas"
+              srcset=""
+            />
           </div>
-          <img
-            src="Assets/Icons/VectorLeaf.png"
-            alt="Single garden teas"
-            srcset=""
-          />
-        </div>
-        <div>
           <div>
-            <p class="title">Customer support</p>
-            <p class="quality">No bots, no automated replies</p>
+            <div>
+              <p class="title">Customer support</p>
+              <p class="quality">No bots, no automated replies</p>
+            </div>
+            <img
+              src="Assets/Icons/VectorSupport.png"
+              alt="Single garden teas"
+              srcset=""
+            />
           </div>
-          <img
-            src="Assets/Icons/VectorSupport.png"
-            alt="Single garden teas"
-            srcset=""
-          />
-        </div>
-        <div>
           <div>
-            <p class="title">Fast shipping</p>
-            <p class="quality">Save, Convenient, Reliabley</p>
+            <div>
+              <p class="title">Fast shipping</p>
+              <p class="quality">Save, Convenient, Reliabley</p>
+            </div>
+            <img
+              src="Assets/Icons/GroupShipping.png"
+              alt="Single garden teas"
+              srcset=""
+            />
           </div>
-          <img
-            src="Assets/Icons/GroupShipping.png"
-            alt="Single garden teas"
-            srcset=""
-          />
         </div>
       </section>
     </main>
@@ -324,54 +345,60 @@
             <li>Terms of Service</li>
           </ul>
         </div>
-        <div class="quote">
-          <blockquote>
-            <p>
-              “Tea is a journey. It can take you to new places and open your
-              mind to new experiences. Let every sip transport you to a world of
-              wonder and possibility.”
-            </p>
-          </blockquote>
-          <p class="quoteAuthor">Dragomir Teodorescu, Tealuxe owner</p>
-        </div>
-        <div class="inTouch">
-          <h3>Stay In Touch</h3>
-          <div>
-            Please feel free to contact us via the email of phone. We would be
-            happy to hear from you!
+        <div class="last">
+          <div class="quote">
+            <blockquote>
+              <p>
+                “Tea is a journey. It can take you to new places and open your
+                mind to new experiences. Let every sip transport you to a world
+                of wonder and possibility.”
+              </p>
+            </blockquote>
+            <p class="quoteAuthor">Dragomir Teodorescu, Tealuxe owner</p>
           </div>
-
-          <div class="contacts">
-            <img
-              src="Assets/Icons/Group4LogoTealuxe.svg"
-              width="60px"
-              alt="logo"
-            />
-            <div style="display: flex; flex-direction: column">
-              <a href="tel:+370 680 123456" class="tel">+370 680 123456</a>
-              <a href="mailto:info@tealuxe.com" class="mail"
-                >info@tealuxe.com</a
-              >
+          <div class="inTouch">
+            <h3>Stay In Touch</h3>
+            <div>
+              Please feel free to contact us via the email of phone. We would be
+              happy to hear from you!
+            </div>
+            <div class="connection">
+              <div class="contacts">
+                <img
+                  src="Assets/Icons/Group4LogoTealuxe.svg"
+                  width="60px"
+                  alt="logo"
+                />
+                <div style="display: flex; flex-direction: column">
+                  <a href="tel:+370 680 123456" class="tel">+370 680 123456</a>
+                  <a href="mailto:info@tealuxe.com" class="mail"
+                    >info@tealuxe.com</a
+                  >
+                </div>
+              </div>
+              <div class="socialNetwork">
+                <a href="#"
+                  ><img
+                    src="Assets/Icons/iconFacebook.png"
+                    alt="We are on Facebook" /></a
+                ><a href="#"
+                  ><img
+                    src="Assets/Icons/iconYoutube.png"
+                    alt="We're on YouTube" /></a
+                ><a href="#"
+                  ><img
+                    src="Assets/Icons/iconInstagram.png"
+                    alt="We're on Instagram" /></a
+                ><a href="#"
+                  ><img
+                    src="Assets/Icons/iconTwitter.png"
+                    alt="We're on Twitter"
+                /></a>
+              </div>
             </div>
           </div>
-          <div class="socialNetwork">
-            <a href="#"
-              ><img
-                src="Assets/Icons/iconFacebook.png"
-                alt="We are on Facebook" /></a
-            ><a href="#"
-              ><img
-                src="Assets/Icons/iconYoutube.png"
-                alt="We're on YouTube" /></a
-            ><a href="#"
-              ><img
-                src="Assets/Icons/iconInstagram.png"
-                alt="We're on Instagram" /></a
-            ><a href="#"
-              ><img src="Assets/Icons/iconTwitter.png" alt="We're on Twitter"
-            /></a>
-          </div>
         </div>
+
         <div class="bottomOther">
           <div>© Tealuxe, 2023</div>
           <div class="pay">
