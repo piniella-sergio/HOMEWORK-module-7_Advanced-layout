@@ -1,7 +1,7 @@
 @font-face {
   font-family: "CormorantLight";
-  src: local(""), url("Assets/Fonts/Cormorant-Light.woff2") format("woff2"),
-    url("/Fonts/Cormorant-Light.woff") format("woff");
+  src: url("Assets/Fonts/Cormorant-Light.woff2") format("woff2"),
+    url("Assets/Fonts/Cormorant-Light.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -9,65 +9,8 @@
 }
 @font-face {
   font-family: "CormorantLightItalic";
-  src: local(""),
-    url("Assets/Fonts/Cormorant-LightItalic.woff2") format("woff2"),
-    url("/Fonts/Cormorant-LightItalic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-  text-rendering: optimizeLegibility;
-}
-@font-face {
-  font-family: "Cormorant";
-  src: url("Cormorant-Italic.woff2") format("woff2"),
-    url("Cormorant-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-  text-rendering: optimizeLegibility;
-}
-@font-face {
-  font-family: "Cormorant-BoldItalic";
-  src: url("Assets/Fonts/Cormorant/Cormorant-BoldItalic.woff2") format("woff2"),
-    url("Assets/Fonts/Cormorant/Cormorant-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-  text-rendering: optimizeLegibility;
-}
-@font-face {
-  font-family: "Cormorant-SemiBoldItalic";
-  src: url("Assets/Fonts/Cormorant/Cormorant-SemiBoldItalic.woff2")
-      format("woff2"),
-    url("Assets/Fonts/Cormorant/Cormorant-SemiBoldItalic.woff") format("woff");
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-  text-rendering: optimizeLegibility;
-}
-@font-face {
-  font-family: "Cormorant-LightItalic";
-  src: url("Assets/Fonts/Cormorant/Cormorant-LightItalic.woff2") format("woff2"),
-    url("Assets/Fonts/Cormorant/Cormorant-LightItalic.woff") format("woff");
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-  text-rendering: optimizeLegibility;
-}
-@font-face {
-  font-family: "Cormorant-MediumItalic";
-  src: url("Assets/Fonts/Cormorant/Cormorant-MediumItalic.woff2")
-      format("woff2"),
-    url("Assets/Fonts/Cormorant/Cormorant-MediumItalic.woff") format("woff");
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-  text-rendering: optimizeLegibility;
-}
-@font-face {
-  font-family: "OpenSansItalic";
-  src: local(""), url("Assets/Fonts/OpenSans-Italic.woff2") format("woff2"),
-    url("/Fonts/OpenSans-Italic.woff") format("woff");
+  src: url("Assets/Fonts/Cormorant-LightItalic.woff2") format("woff2"),
+    url("Assets/Fonts/Cormorant-LightItalic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -75,14 +18,13 @@
 }
 @font-face {
   font-family: "OpenSansRegular";
-  src: local(""), url("Assets/Fonts/OpenSans-Regular.woff2") format("woff2"),
-    url("/Fonts/OpenSans-Regular.woff") format("woff");
+  src: url("Assets/Fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("Assets/Fonts/OpenSans-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
   text-rendering: optimizeLegibility;
 }
-
 body {
   all: unset;
   font-family: "CormorantLight", serif;
@@ -128,7 +70,7 @@ header {
   flex-direction: row;
   width: 618px;
   justify-content: space-around;
-  font-family: "OpenSansRegular";
+  font-family: "OpenSansRegular", sans-serif;
   font-size: 18px;
   margin-top: 70px;
   margin-left: 200px;
@@ -202,7 +144,6 @@ header {
   font-family: CormorantLightItalic;
   font-size: 40px;
   font-weight: 300;
-  font-style: italic;
   line-height: 49px;
   width: 738px;
   height: 107px;
@@ -282,14 +223,15 @@ header {
   column-gap: 12px;
 }
 .block-reviews {
-  font-family: OpenSansItalic;
+  font-family: "OpenSansRegular", sans-serif;
+  font-style: italic;
   font-size: 16;
   font-weight: 300;
   line-height: 22px;
   width: 290px;
 }
 .name {
-  font-family: OpenSansRegular;
+  font-family: "OpenSansRegular", sans-serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 27px;
@@ -370,7 +312,7 @@ header {
   width: 252px;
 }
 .author {
-  font-family: OpenSansRegular;
+  font-family: "OpenSansRegular", sans-serif;
   font-size: 13px;
   font-weight: 300;
   line-height: 18px;
@@ -380,7 +322,7 @@ header {
   margin-bottom: auto;
 }
 .read {
-  font-family: OpenSansRegular;
+  font-family: "OpenSansRegular", sans-serif;
   font-size: 13px;
   font-weight: 300;
   line-height: 18px;
@@ -395,7 +337,7 @@ header {
   border: 1px solid #151618;
   align-content: center;
   text-align: center;
-  font-family: OpenSansRegular;
+  font-family: "OpenSansRegular", sans-serif;
   font-size: 20px;
   line-height: 27px;
   font-weight: 300;
@@ -434,7 +376,7 @@ header {
 }
 .subscribe p {
   margin-top: 50px;
-  font-family: OpenSansRegular;
+  font-family: "OpenSansRegular", sans-serif;
   font-size: 19px;
   font-weight: 300;
   line-height: 30px;
@@ -449,7 +391,7 @@ header {
 .emailForm {
   width: 439px;
   height: 30px;
-  font-family: OpenSansRegular;
+  font-family: "OpenSansRegular", sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 30px;
@@ -467,14 +409,14 @@ header {
   background-color: #fff;
   align-content: center;
   text-align: center;
-  font-family: OpenSansRegular;
+  font-family: "OpenSansRegular", sans-serif;
   font-size: 20px;
   line-height: 27px;
   font-weight: 300;
   margin-left: 20px;
 }
 .subscribe div label {
-  font-family: OpenSansRegular;
+  font-family: "OpenSansRegular", sans-serif;
   font-size: 13px;
   font-weight: 300;
   line-height: 18px;
@@ -506,14 +448,14 @@ header {
   grid-column: 1 / 5;
 }
 .title {
-  font-family: OpenSansRegular;
+  font-family: "OpenSansRegular", sans-serif;
   font-size: 30px;
   font-weight: 300;
   line-height: 41px;
   margin-bottom: 10px;
 }
 .quality {
-  font-family: OpenSansRegular;
+  font-family: "OpenSansRegular", sans-serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 27px;
@@ -539,7 +481,7 @@ footer {
 }
 .products li {
   width: 97px;
-  font-family: OpenSansRegular;
+  font-family: "OpenSansRegular", sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 22px;
@@ -547,7 +489,7 @@ footer {
 }
 .company li {
   width: 155px;
-  font-family: OpenSansRegular;
+  font-family: "OpenSansRegular", sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 22px;
@@ -567,14 +509,14 @@ footer {
   padding-top: 80px;
 }
 blockquote {
-  font-family: OpenSansRegular;
+  font-family: "OpenSansRegular", sans-serif;
   font-style: italic;
   font-size: 16px;
   font-weight: 300;
   line-height: 22px;
 }
 .quoteAuthor {
-  font-family: OpenSansRegular;
+  font-family: "OpenSansRegular", sans-serif;
   font-size: 12px;
   font-weight: 300;
   line-height: 16px;
@@ -587,7 +529,7 @@ blockquote {
   width: 270px;
 }
 .inTouch div {
-  font-family: OpenSansRegular;
+  font-family: "OpenSansRegular", sans-serif;
   font-size: 13px;
   font-weight: 300;
   line-height: 17px;
@@ -634,7 +576,7 @@ blockquote {
   justify-content: space-between;
   width: 466px;
   margin-top: 85px;
-  font-family: OpenSansRegular;
+  font-family: "OpenSansRegular", sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 22px;
@@ -678,7 +620,6 @@ blockquote {
     padding-left: 18px;
   }
   .presentation {
-    width: ;
     margin-left: 0px;
     padding-left: 19px;
   }
@@ -997,7 +938,7 @@ blockquote {
   .subscribe p {
     width: 460px;
     margin-top: 20px;
-    font-family: OpenSansRegular;
+    font-family: "OpenSansRegular", sans-serif;
     font-size: 13px;
     font-weight: 300;
     line-height: 17px;
